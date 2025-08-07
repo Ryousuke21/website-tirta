@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tokopedia Clone</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <input type="text" placeholder="Cari produk, toko, kategori..." />
+      <div class="icons">
+        <span>🛒</span>
+        <span>🔔</span>
+      </div>
+    </div>
+  </header>
+
+  <section class="carousel">
+    <img src="promo1.jpg" alt="Promo 1" />
+  </section>
+
+  <section class="categories">
+    <div class="category">🧥 Fashion</div>
+    <div class="category">📱 Gadget</div>
+    <div class="category">🍔 Food</div>
+    <div class="category">🏠 Home</div>
+    <!-- Tambah kategori lainnya -->
+  </section>
+
+  <section class="flash-sale">
+    <h2>🔥 Flash Sale</h2>
+    <div class="product-list">
+      <div class="product-card">
+        <img src="product1.jpg" alt="Product" />
+        <p>Nama Produk</p>
+        <p class="price">Rp 199.000</p>
+        <button>🛒 Tambah</button>
+      </div>
+      <!-- Tambah produk lainnya -->
+    </div>
+  </section>
+
+  <footer class="bottom-nav">
+    <span>🏠</span>
+    <span>📂</span>
+    <span>🛒</span>
+    <span>👤</span>
+  </footer>
+</body>
+</html>
